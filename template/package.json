@@ -1,0 +1,14 @@
+{
+  "name": "{{ name }}",
+  "author": "{{ author }}",
+  "license": "{{ license }}",
+  "private": true,
+  "scripts": {
+    "start": "roc"
+  },
+  "devDependencies": {
+    "roc": "^1.0.0-rc.20",
+    "roc-plugin-repo": "^0.0.1",
+    "roc-plugin-repo-react": "^0.0.1"
+  }
+}
