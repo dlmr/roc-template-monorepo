@@ -5,6 +5,7 @@ import Component from './index';
 
 describe('Component', () => {
   it('should export a component', () => {
-      expect(Component).toNotBe(undefined);
+    const tree = renderer.create(<Component />).toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });
